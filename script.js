@@ -755,10 +755,10 @@
 } // the program loop
 {
 	//checks for mouse moves
-	window.document.body.addEventListener('mousemove', function(event) {
+	canvas.addEventListener('mousemove', function(event) {
 		//update the mouse coorinates
-		mouse.x = event.pageX;
-		mouse.y = event.pageY;
+		mouse.x = event.layerX;
+		mouse.y = event.layerY;
 	});
 	//check for mouse clickes
 	window.document.body.addEventListener('mouseup', function() {
