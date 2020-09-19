@@ -1,4 +1,4 @@
-# Totally_a_normal_platformer
+# Totally a normal platformer
 A platformer that has nothing wrong with it ;)
 
 ## where to find this game:
